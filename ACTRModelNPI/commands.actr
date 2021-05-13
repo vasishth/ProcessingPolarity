@@ -1,0 +1,73 @@
+;;;-*-LISP-*-
+
+(setf *actr-enabled-p* t)
+
+(goal-focus top-goal)
+
+(pm-reset) 
+
+(pm-set-visloc-default :attended new :screen-x lowest)
+
+(pm-set-params :show-focus nil
+	       :trace-modules t
+	       )
+       
+
+(sgp  
+;	  :esc t          ; enable subsymbolic computation ;; added (sbr)
+	  :ga 1           ; goal activation
+	  :pm nil           ; partial matching
+;	  :pm t         ; partial matching
+;	  :blc -0.3     ; base level constant (2 was used in Raluca's  model)	;      	  :blc 0        ; base level constant (2 was used in Raluca's
+	  :bll 0.5        ; turn decay on
+	  :ol nil         ; use full learning rule, not approximation
+
+;;; Activation noise settings
+
+	  :ans nil
+;	  :ans .15        
+;	  :ans .25       
+;	  :ans .3        
+;	  :ans .35
+;	  :ans .45        
+
+
+
+;	   :rt -.5        ; retrieval threshold
+;	  :rt -1.0        ; retrieval threshold
+	  :rt -1.5        ; retrieval threshold
+;	   :md 0.0       ; maximum difference penalty
+	   :md -0.6       ; maximum difference penalty
+;          :ms  0         ; minimum difference penalty 
+;          :mp  1         ; match scale          
+;	   :mas 3         ; maximum associative strength
+	  :mas 1.5        ; maximum associative strength
+;	   :mas 0         ; maximum associative strength
+			  ; (3 was used in Sternberg model)
+
+;            :lf .52	  ;latency factor
+;           :lf .50	  ;latency factor
+           :lf .46	  ;latency factor
+;           :lf .26	  ; latency factor 
+;           :lf .14       ; latency factor
+;           :lf .25       ; latency factor
+	                  ; (.45 was used in Raluca's model)
+
+;	  :lt t           ; latency trace
+	  :lt nil         ; latency trace
+
+	  :act  nil       ; activation trace
+;	  :act  t         ; activation trace
+
+	  :ct t           ; cycle trace
+;	  :ct nil         ; cycle trace
+	  :ot nil           ; output trace
+  
+	  :pt  nil        ; production trace
+	  :pct nil        ; production compilation trace
+	  :pmt nil        ; partial matching trace
+;	  :pmt t          ; partial matching trace
+	  :dmt nil        ; declarative memory trace
+          
+	  :v   t          ; verbose
+     )

@@ -1,0 +1,117 @@
+;;;-*-LISP-*-
+
+(noun mann  :id mann-n-nom
+            :case     nom
+            :number   singular
+            :gender   masc
+)
+
+(noun pirat  :id pirat-n-nom
+            :case     nom
+            :number   singular
+            :gender   masc
+)
+
+(noun bart  :id bart-n-acc
+            :case     acc
+            :number   singular
+            :gender   masc
+)
+
+(noun braten  :id braten-n-acc
+            :case     acc
+            :number   singular
+            :gender   masc
+)
+
+
+;; R E L A T I V E   P R O N O U N S
+
+(noun der :id     der-n
+          :cat    wh-pronoun
+          :case   nom
+          :gender masc
+          :number singular
+)
+
+(noun den :id     den-n
+          :cat    wh-pronoun
+          :case   acc
+          :gender masc
+          :number singular
+)
+
+
+;; D E T E R M I N E R
+
+(det ein    :id       ein-det-nom
+            :case     nom
+            :number   singular
+            :gender   masc
+            :polarity positive
+)
+
+(det kein   :id        kein-det-nom
+            :case      nom
+            :number    singular
+            :gender    masc
+            :polarity  negative
+)
+
+(det einen  :id       einen-det-acc
+            :case     acc
+            :number   singular
+            :gender   masc
+            :polarity positive
+)
+
+(det keinen :id        keinen-det-acc
+            :case      acc 
+            :number    singular
+            :gender    masc
+            :polarity  negative
+)
+
+;; V E R B S
+
+(verb trug  :id trug-v
+            :cat    V
+            :number singular
+            :tense  past
+)
+
+(verb gegessen  :id gegessen-v
+            :cat    V
+            :number singular
+            :tense  past
+)
+
+(verb war   :id     war-i-v
+            :cat    I-V
+            :number singular
+            :tense  past
+)
+
+
+(verb hatte :id     hatte-i-v 
+            :cat    I-V
+            :number singular
+            :tense  past
+)
+
+
+
+;; A D J E C T I V E S
+
+(adj gluecklich :id gluecklich-adj)
+(adj sparsam :id sparsam-adj)
+
+
+
+;; A D V E R B S
+
+(adv jemals   :id jemals-adv   :polarity negative)
+(adv durchaus :id durchaus-adv :polarity positive)
+;(adv immer    :id immer-adv    :polarity zero)
+
+

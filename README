@@ -1,0 +1,10 @@
+VBLDCogSci.R Contains source code written in R used for analyzing the 
+             eyetracking experimental data presented
+polaritydata.Rda This is an R data file containing the eyetracking data 
+                 for position 9 in the six conditions (the polarity item)
+alldatapos9.Rda This is an R data file that contains the mean scores for 
+                dependent measures; this is intended for plotting purposes
+ACTRModelNPI.tar.gz is the ACT-R Model. A README file is provided.
+ACT-R-environmentEnhanced.tar.gz This is a modified version of ACT-R 5 
+                      (some changes were made in the original production rule 
+                      syntax)

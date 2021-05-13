@@ -1,0 +1,212 @@
+
+ Time  0.000: Vision found LOC101
+********************************************************************
+
+SENTENCE:   "ein pirat der einen  braten gegessen hatte war jemals sparsam *stop*"
+
+********************************************************************
+
+ Time  0.000: Find-First-Word Selected
+ Time  0.050: Find-First-Word Fired
+ Time  0.050: Module :VISION running command FIND-LOCATION
+ Time  0.050: Vision found LOC101
+ Time  0.050: Attend-To-Next-Word Selected
+ Time  0.100: Attend-To-Next-Word Fired
+ Time  0.100: Module :VISION running command MOVE-ATTENTION
+ Time  0.185: Module :VISION running command ENCODING-COMPLETE
+ Time  0.185: Vision sees TEXT89
+ Time  0.185: Lexical-Retrieval-Request-Ein Selected
+
+********************   NOW READING: "ein" at  0.235   **********************
+
+ Time  0.235: Lexical-Retrieval-Request-Ein Fired
+ Time  0.236: Ein-Det-Nom Retrieved
+ Time  0.236: Set-Retrieval-Cues-Ip-Gapped-Goal-Input-Det Selected
+
+Stuffing BUFFER LEX with CHUNK EIN-DET-NOM.
+ Time  0.286: Set-Retrieval-Cues-Ip-Gapped-Goal-Input-Det Fired
+ Time  0.509: Ipb101 Retrieved
+ Time  0.509: Attach-Dp-As-Subject-Of-Predicted-Gapped-Ip Selected
+ Time  0.559: Attach-Dp-As-Subject-Of-Predicted-Gapped-Ip Fired
+ Time  0.559: Find-Location-Of-Next-Word Selected
+
+     ===========================================
+        TOTAL attachment time for EIN:  0.323
+     ===========================================
+
+ Time  0.609: Find-Location-Of-Next-Word Fired
+ Time  0.609: Module :VISION running command FIND-LOCATION
+ Time  0.609: Vision found LOC103
+ Time  0.609: Attend-To-Next-Word Selected
+ Time  0.659: Attend-To-Next-Word Fired
+ Time  0.659: Module :VISION running command MOVE-ATTENTION
+ Time  0.744: Module :VISION running command ENCODING-COMPLETE
+ Time  0.744: Vision sees TEXT90
+ Time  0.744: Lexical-Retrieval-Request-Pirat Selected
+
+********************   NOW READING: "pirat" at  0.794   **********************
+
+ Time  0.794: Lexical-Retrieval-Request-Pirat Fired
+ Time  0.797: Pirat-N-Nom Retrieved
+ Time  0.797: Set-Retrieval-Cues-Goal-Np-Input-N Selected
+
+Stuffing BUFFER LEX with CHUNK PIRAT-N-NOM.
+ Time  0.847: Set-Retrieval-Cues-Goal-Np-Input-N Fired
+ Time  1.012: Dpb102 Retrieved
+ Time  1.012: Attach-Initial-Subject-Np Selected
+ Time  1.062: Attach-Initial-Subject-Np Fired
+ Time  1.062: Find-Location-Of-Next-Word Selected
+
+     ===========================================
+        TOTAL attachment time for PIRAT:  0.265
+     ===========================================
+
+ Time  1.112: Find-Location-Of-Next-Word Fired
+ Time  1.112: Module :VISION running command FIND-LOCATION
+ Time  1.112: Vision found LOC105
+ Time  1.112: Attend-To-Next-Word Selected
+ Time  1.162: Attend-To-Next-Word Fired
+ Time  1.162: Module :VISION running command MOVE-ATTENTION
+ Time  1.247: Module :VISION running command ENCODING-COMPLETE
+ Time  1.247: Vision sees TEXT91
+ Time  1.247: Lexical-Retrieval-Request-Der Selected
+
+********************   NOW READING: "der" at  1.297   **********************
+
+ Time  1.297: Lexical-Retrieval-Request-Der Fired
+ Time  1.300: Der-N Retrieved
+ Time  1.300: Set-Retrieval-Cues-Input-Wh-Pronoun Selected
+
+Stuffing BUFFER LEX with CHUNK DER-N.
+ Time  1.350: Set-Retrieval-Cues-Input-Wh-Pronoun Fired
+ Time  1.512: Dpb102 Retrieved
+ Time  1.512: Attach-Cp-As-Sr-Modifier-Of-Retrieved-Singular-Np Selected
+
+Setting next-goal of IPB106 to NEXT-IP-GAPPED-GOAL.
+
+
+
+Setting next-goal of CPB106 to NEXT-IP-GAPPED-GOAL.
+
+
+
+     ------------------------------------------
+           Relation: DER is "modifier" of PIRAT
+     ------------------------------------------
+
+ Time  1.562: Attach-Cp-As-Sr-Modifier-Of-Retrieved-Singular-Np Fired
+ Time  1.562: Find-Location-Of-Next-Word Selected
+
+     ===========================================
+        TOTAL attachment time for DER:  0.050
+     ===========================================
+
+ Time  1.612: Find-Location-Of-Next-Word Fired
+ Time  1.612: Module :VISION running command FIND-LOCATION
+ Time  1.612: Vision found LOC107
+ Time  1.612: Attend-To-Next-Word Selected
+ Time  1.662: Attend-To-Next-Word Fired
+ Time  1.662: Module :VISION running command MOVE-ATTENTION
+ Time  1.747: Module :VISION running command ENCODING-COMPLETE
+ Time  1.747: Vision sees TEXT92
+ Time  1.747: Lexical-Retrieval-Request-Einen Selected
+
+********************   NOW READING: "einen" at  1.797   **********************
+
+ Time  1.797: Lexical-Retrieval-Request-Einen Fired
+ Time  1.801: Einen-Det-Acc Retrieved
+ Time  1.801: Set-Retrieval-Cues-Ip-Goal-Input-Det Selected
+
+Stuffing BUFFER LEX with CHUNK EINEN-DET-ACC.
+ Time  1.851: Set-Retrieval-Cues-Ip-Goal-Input-Det Fired
+ Time  2.098: Ipb106 Retrieved
+ Time  2.098: Attach-Dp-As-Object-Of-Predicted-Ip Selected
+ Time  2.148: Attach-Dp-As-Object-Of-Predicted-Ip Fired
+ Time  2.148: Find-Location-Of-Next-Word Selected
+
+     ===========================================
+        TOTAL attachment time for EINEN:  0.347
+     ===========================================
+
+ Time  2.198: Find-Location-Of-Next-Word Fired
+ Time  2.198: Module :VISION running command FIND-LOCATION
+ Time  2.198: Vision found LOC109
+ Time  2.198: Attend-To-Next-Word Selected
+ Time  2.248: Attend-To-Next-Word Fired
+ Time  2.248: Module :VISION running command MOVE-ATTENTION
+ Time  2.333: Module :VISION running command ENCODING-COMPLETE
+ Time  2.333: Vision sees TEXT93
+ Time  2.333: Lexical-Retrieval-Request-Braten Selected
+
+********************   NOW READING: "braten" at  2.383   **********************
+
+ Time  2.383: Lexical-Retrieval-Request-Braten Fired
+ Time  2.388: Braten-N-Acc Retrieved
+ Time  2.388: Set-Retrieval-Cues-Goal-Np-Input-N Selected
+
+Stuffing BUFFER LEX with CHUNK BRATEN-N-ACC.
+ Time  2.438: Set-Retrieval-Cues-Goal-Np-Input-N Fired
+ Time  2.603: Dpb108 Retrieved
+ Time  2.603: Attach-Object-Np Selected
+ Time  2.653: Attach-Object-Np Fired
+ Time  2.653: Find-Location-Of-Next-Word Selected
+
+     ===========================================
+        TOTAL attachment time for BRATEN:  0.265
+     ===========================================
+
+ Time  2.703: Find-Location-Of-Next-Word Fired
+ Time  2.703: Module :VISION running command FIND-LOCATION
+ Time  2.703: Vision found LOC111
+ Time  2.703: Attend-To-Next-Word Selected
+ Time  2.753: Attend-To-Next-Word Fired
+ Time  2.753: Module :VISION running command MOVE-ATTENTION
+ Time  2.838: Module :VISION running command ENCODING-COMPLETE
+ Time  2.838: Vision sees TEXT94
+ Time  2.838: Lexical-Retrieval-Request-Gegessen Selected
+
+********************   NOW READING: "gegessen" at  2.888   **********************
+
+ Time  2.888: Lexical-Retrieval-Request-Gegessen Fired
+ Time  2.893: Gegessen-V Retrieved
+ Time  2.893: Set-Retrieval-Cues-Goal-Ip-Input-V-Perfect-Participle Selected
+
+Stuffing BUFFER LEX with CHUNK GEGESSEN-V.
+ Time  2.943: Set-Retrieval-Cues-Goal-Ip-Input-V-Perfect-Participle Fired
+ Time  3.180: Ipb106 Retrieved
+ Time  3.180: Attach-Perfect-Participle-Of-Verb-In-Pqp-No-Gap Selected
+
+     ------------------------------------------
+           Relation: PIRAT is "subject" of GEGESSEN
+     ------------------------------------------
+
+ Time  3.230: Attach-Perfect-Participle-Of-Verb-In-Pqp-No-Gap Fired
+ Time  3.230: Find-Location-Of-Next-Word Selected
+
+     ===========================================
+        TOTAL attachment time for GEGESSEN:  0.337
+     ===========================================
+
+ Time  3.280: Find-Location-Of-Next-Word Fired
+ Time  3.280: Module :VISION running command FIND-LOCATION
+ Time  3.280: Vision found LOC113
+ Time  3.280: Attend-To-Next-Word Selected
+ Time  3.330: Attend-To-Next-Word Fired
+ Time  3.330: Module :VISION running command MOVE-ATTENTION
+ Time  3.415: Module :VISION running command ENCODING-COMPLETE
+ Time  3.415: Vision sees TEXT95
+ Time  3.415: Lexical-Retrieval-Request-Hatte Selected
+
+********************   NOW READING: "hatte" at  3.465   **********************
+
+ Time  3.465: Lexical-Retrieval-Request-Hatte Fired
+ Time  3.471: Hatte-I-V Retrieved
+ Time  3.471: Set-Retrieval-Cues-Goal-Ip-Input-I-V-Preceding-Perfect-Participle Selected
+
+Stuffing BUFFER LEX with CHUNK HATTE-I-V.
+
+  >>>>FAILURE FAILURE FAILURE <<<<<<
+ 
+ Time  3.521: Set-Retrieval-Cues-Goal-Ip-Input-I-V-Preceding-Perfect-Participle Fired
+ Time  5.583: Failure Retrieved
+ Time 15.000: * Running stopped because time limit reached.
